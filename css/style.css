@@ -90,6 +90,41 @@ btn:visited {
 }
 
 /*******************************************/
+/*NAVIGATION*/
+/*******************************************/
+.main-nav-list {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+  list-style: none;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+.main-nav-link.nav-cta:hover,
+.nav-cta:active {
+  background-color: #cf711f;
+}
+/*******************************************/
 /*HER0 SECTION*/
 /*******************************************/
 
