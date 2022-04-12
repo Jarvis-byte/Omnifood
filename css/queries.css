@@ -100,6 +100,7 @@ Instead, 1rem=1em=16px
   }
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
   .header .main-nav {
     background-color: rgba(255, 255, 255, 0.97);
