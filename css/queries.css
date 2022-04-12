@@ -40,6 +40,11 @@ Instead, 1rem=1em=16px
   .header {
     padding: 0 3.2rem;
   }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.3rem;
+  }
   .main-nav-list {
     gap: 3.2rem;
   }
